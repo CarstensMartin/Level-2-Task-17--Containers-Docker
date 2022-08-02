@@ -1,0 +1,5 @@
+1234, Aesop’s Pizza, Cape Town, 098 765 4321, 242.00, Extra tomato base on the Pepperoni pizza, 1 x Pepperoni pizza (R78.00), 2 x Hawaiian pizza (R82.00)
+1235, Joes Beer House, Windhoek, +264 61 232 457, 306.00, Change the chips for a salad, 1 x Joe’s Bratwurst and Chips (R99.00), 1 x Crocodile Fillet (R207.00)
+1236, Mantra Cafe, Cape Town, +27 21 437 0005, 370.00, Extra Pepper sauce, 1 x Tuna Ceviche (R125.00), 1 x Sirloin Tagliata (R245.00)
+1237, Doodles Beachfront, Cape Town, +27 21 554 1080, 129.00, No Tomato on the burger, 1 x Bacon, Avo and Cheese Burger (R129.00)
+1238, Sir Loin-Durbanville, Cape Town, +27 21 981 0316, 362.90,  Change chips for baked potatoes, 1 x PRIME CUTs Fillet 300g (R199.95), 1 x MELT STEAK Rump 300g (R162.95)

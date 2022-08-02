@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--Language english of html-->
+<html lang="en">
+
+<head>
+    <!--Meta tag size settings-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!--Title of website-->
+    <title>My Passion</title>
+    <!--Add the Logo to the title-->
+    <link rel="shortcut icon" type="image/gif" href="Images/logo Small.jpg">
+    <!--Style sheets link to html-->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/Testimonials.css">
+    <link rel="stylesheet" href="assets/css/untitled.compiled.css">
+    <!--Ajax and JavaScript link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+
+<body class="body">
+    <!--Navigation bar-->
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
+        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
+                    class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1"><img class="logonavbar"
+                    src="assets/img/logo%20Small.jpg">
+                <ul class="navbar-nav text-center flex-grow-1 justify-content-between">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="History.html">History</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Video.html">Video</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="social.html">Social &amp; Divisions&nbsp;</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="ContactUs.html">Get in Touch</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Degrees.html">Different Degrees</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Articles.html">Articles</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Articles - Save for later.html">Save for
+                            Later</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <h1 class="h1articles"> Articles about Freemasonry</h1>
+    <!--Display how many of the articles are saved-->
+    <div>
+        <span>
+            Number of articles saved:
+        </span>
+        <!--On first load - display 0, once changes are made, update the total to the new amount-->
+        <span class="total-items-in-cart">
+            0
+        </span>
+    </div>
+
+    <!--Create a div where all the articles related to Freemasonry is displayed-->
+    <div class="products-list">
+        <!-- Render all the articles using JS -->
+        <div class="products"></div>
+
+        <!--Create a div where all the Saved Articles are listed - This div is hidden and only used for calculation-->
+        <div class="cart">
+            <!--Div to show how many items are saved in the saved articles-->
+            <div class="cart-footer">
+                <div class="subtotal">
+                    Total Articles Saved: 0
+                </div>
+            </div> <br />
+            <!-- Render all the articles that are saved - Use JS to create divs inside this Div-->
+            <div class="cart-items" id="cart-items"></div>
+        </div>
+    </div>
+
+    </section><!-- Start: Pretty Footer -->
+    <footer class="footer">
+        <div class="row text-center">
+            <div class="col-sm-6 col-md-4 footer-navigation">
+                <h3 data-aos="fade-right" data-aos-delay="100"><a class="glsafooter" href="#">The Grand Lodge of South
+                        Africa</a></h3>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-contacts">
+                <div>
+                    <p><span data-aos="fade-right" data-aos-delay="200" class="new-line-span"><span
+                                class="fa fa-map-marker footer-contacts-icon"> </span>GLSA - Graham Botha
+                            Sentrum/Centre, Bouquet St, Cape Town, 8000</span></p>
+                </div>
+            </div>
+            <div class="col-md-4 footer-about">
+                <!--3 External links-->
+                <div data-aos="fade" data-aos-delay="300" class="social-links social-icons"><a
+                        href="https://www.facebook.com/login.php?skip_api_login=1&amp;api_key=966242223397117&amp;signed_next=1&amp;next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fwww.grandlodge.co.za%252Fhistory%252F&amp;cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&amp;display=popup&amp;locale=en_GB"><i
+                            class="fa fa-facebook"></i></a><a
+                        href="https://twitter.com/intent/tweet?text=History%20via%20%40%40glsatwits&amp;url=https%3A%2F%2Fwww.grandlodge.co.za%2Fhistory%2F"><i
+                            class="fa fa-twitter"></i></a></div><a data-aos="fade" data-aos-delay="400"
+                    href="https://www.grandlodge.co.za">visit official website www.grandlodge.co.za</a>
+            </div>
+        </div>
+        <p class="text-center">Information of this web page is from www.grandlodge.co.za</p>
+    </footer><!-- End: Pretty Footer -->
+    <!--Link the list of article and JS file -->
+    <script src="./list of Articles.js"></script>
+    <script src="./Articles.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+/*Set the root prroperties*/
+:root {
+  --backgroundcolor: #000000;
+  --textcolor:#ffffff;
+}
+/*Properties of the body*/
+body {
+  padding: 40px;
+  background-color: #000000;
+  color: #ffffff;
+}
+/*Navigation bar at the top' properties*/
+.navbar.darkbackground {
+  opacity: 0.8;
+  background-color: var(--backgroundcolor);
+}
+/*Properties of the links of the nav bar*/
+.navbar.link {
+  color: white;
+  font-size: 10px;
+}
+/*Logo size that is on the nav bar*/
+.logonavbar {
+  max-width: 43px;
+}
+/*Properties of the introduction*/
+.Introduction {
+  padding-top: 80px;
+  text-align: center;
+  color: var(--textcolor);
+  background-color: var(--backgroundcolor);
+}
+/*h1 header introduction section*/
+.Introduction h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+/*h2 of the introduction section*/
+.Introduction h2 {
+  font-size: 27px;
+  font-weight: 400;
+}
+/*Properties of information in the main page*/
+.information {
+  color: var(--textcolor);
+  background-color: var(--backgroundcolor);
+}
+.information p {
+  padding: 10px;
+}
+.information h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+.information h2 {
+  text-align: left;
+}
+/*Add padding to the history class*/
+.History {
+  padding-top: 80px;
+}
+/*Properties of the different divisions in the social page*/
+.divisionheader {
+  color: var(--bs-teal);
+}
+/*Properties of the table body of divisions*/
+.tablebody {
+  color: var(--textcolor);
+}
+/*footer properties for the glsa website*/
+.glsafooter {
+  font-size: 40px;
+}
+/*Paragraph about John class properties*/
+.TextJohn {
+  font-size: 20px;
+}
+/*Logo of glsa at the contact form properties*/
+.logoglsa {
+  padding-bottom: 20px;
+}
+/*Review section properties*/
+.h2SaveLater{
+  background-color: lightgrey;
+  color: black;
+  font-weight: bolder;
+}
+/*Image properties of the articles that are rendered and saved*/
+.imageSaved{
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 20px;
+}
+/*properties of remove saved article*/
+.removeArticle{
+  background-color: red;
+  padding-left: 20px;
+  cursor: pointer;
+  border-bottom-left-radius: 20px;
+
+}
+/*properties of articles page h1*/
+.h1articles{
+padding-top: 30px;
+}
+/*property of the save icon*/
+.saveIcon{
+width: 50px;
+height: 50px;
+background-color: lime;
+cursor: pointer;
+border-bottom-left-radius: 20px;
+}
+/*properties of the like icon*/
+.likeIcon{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+/*padding at the top between different articles*/
+.item{
+  padding-top: 20px;
+  
+}
+/*properties of the article container that is displayed*/
+.item-container{
+  background-color: grey;
+  border-radius: 20px;
+}
+/*Saved articles display properties*/
+.cart-item{
+  background-color: grey;
+  border-radius: 20px;
+}
+/*review saved items div*/
+.reviewDiv{
+  background-color: grey;
+  border-radius: 20px;
+}
+/*h1 of degrees header properties*/
+#h1Degrees{
+  padding-top: 20px;
+}
